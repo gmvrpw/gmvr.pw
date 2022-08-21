@@ -1,21 +1,30 @@
 import { createGlobalStyle } from "styled-components";
 
 export const theme = {
-  light: {
-    primaryBackground: "#ffffff",
-    secondaryBackground: "#141414",
+  light: {},
+  dark: {
+    background: "#000",
   },
-  dark: {},
 };
 
 export const constants = {};
+
+export const breakpoints = {
+  mobileS: "0",
+  mobileM: "320px",
+  mobileL: "375px",
+  tablet: "425px",
+  laptop: "768px",
+  laptopL: "1024px",
+  large: "1440px",
+};
 
 const GlobalStyle = createGlobalStyle`
   html, body {
     padding: 0;
     margin: 0;
     border: 0;
-    font-family: 'Manrope', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
   }
 
   * {

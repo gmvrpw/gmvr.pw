@@ -4,7 +4,7 @@ import GlobalStyle, { theme } from "styles";
 
 const App = () => {
   return (
-    <ThemeProvider theme={theme}>
+    <ThemeProvider theme={theme.dark}>
       <Index />
       <GlobalStyle />
     </ThemeProvider>
