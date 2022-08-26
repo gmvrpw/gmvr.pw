@@ -1,4 +1,4 @@
-import Index from "page/Index";
+import Index from "pages/Index";
 import { ThemeProvider } from "styled-components";
 import GlobalStyle, { theme } from "styles";
 
